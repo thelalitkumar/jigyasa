@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b57bdf7.css",
+    "main.js": "/static/js/main.2554ba8a.js",
+    "static/media/Ubuntu-Bold.ttf": "/static/media/Ubuntu-Bold.26da201a063fcd90a567.ttf",
+    "static/media/right.png": "/static/media/right.2e1001f79a91776de835.png",
+    "static/media/times-new-roman.ttf": "/static/media/times-new-roman.f85717dad92d60284052.ttf",
+    "static/media/times_bold.ttf": "/static/media/times_bold.336764e15b6873b9b5aa.ttf",
+    "static/media/logo.png": "/static/media/logo.ad2694da5c8da972030a.png",
+    "static/media/target.png": "/static/media/target.85fb7443cbb84ca0ff4c.png",
+    "static/media/questions.png": "/static/media/questions.d909297e342e9f2547ca.png",
+    "static/media/hourglass.png": "/static/media/hourglass.fb07e7d8809213cdcd49.png",
+    "static/media/version.png": "/static/media/version.4958b889162d6f01e587.png",
+    "static/media/wrong.png": "/static/media/wrong.531745eb6f8929634d1f.png",
+    "index.html": "/index.html",
+    "main.6b57bdf7.css.map": "/static/css/main.6b57bdf7.css.map",
+    "main.2554ba8a.js.map": "/static/js/main.2554ba8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b57bdf7.css",
+    "static/js/main.2554ba8a.js"
+  ]
+}

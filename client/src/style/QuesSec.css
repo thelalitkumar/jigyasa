@@ -1,0 +1,93 @@
+.QuesSec {
+  background-color: white;
+  padding-right: 7vw;
+  padding-left: 7vw;
+  padding-top: 3vh;
+  padding-bottom: 3vh;
+  overflow: auto;
+  flex: 1;
+  white-space: pre-wrap;
+}
+.top {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-between;
+  padding: 1vh 0;
+}
+.quesNo h6 {
+  font-size: 1.05vw;
+  font-weight: 200;
+}
+#qno{
+    font-weight: 600;
+}
+.marks p {
+  background: #e9eef2;
+  border-radius: 0.3vw;
+  padding: 0.2vw 0.77vw;
+  font-size: 1.05vw !important;
+  font-family: "Lora", serif !important;
+}
+.ques {
+  padding: 1vh 0;
+  width: 54vw;
+}
+.ques p {
+  font-size: 1.2vw;
+  font-weight: 400;
+  padding-left: 0.5vw;
+}
+
+/* *************************** */
+.options {
+  width: 54vw;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  font-family: "Lora", serif !important;
+}
+.options input[type="radio"] {
+  display: none;
+}
+.options label {
+  font-size: 1.2vw;
+  display: flex;
+  align-items: center;
+  background: white;
+  margin-top: 12px;
+  padding: 1vh 1.2vh;
+  display: flex;
+  border-radius: 0.3vw;
+  border: 0.2vw solid transparent;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+  7px 7px 20px 0px rgba(0,0,0,.1),
+  4px 4px 5px 0px rgba(0,0,0,.1);
+}
+.options label:hover {
+  background: #EAF3FF;/**/
+}
+.options label::before {
+  content: "";
+  height: 1vw;
+  width: 1vw;
+  margin-right: 1.2vw;
+  background: #ccc;
+  border: 0.4vw solid #7A8B94;
+  display: inline-block;
+  border-radius: 50%;
+  transition: all 0.25s ease;
+  box-shadow: inset -4px -4px 10px white;
+}
+.options input[type="radio"]:checked + label {
+  border-color: #2D81F7;
+  background: #EAF3FF;
+}
+.options input[type="radio"]:checked + label:before {
+  border: 0.4vw solid white;
+  border-color: #2D81F7;
+  background: #fff;
+}
+
