@@ -7,10 +7,6 @@ app.use(express.json());
 
 app.use(express.static(path.join(__dirname, 'build')));
 
-app.get('/', function(req, res) {
-  res.sendFile(path.join(__dirname, 'build', 'index.html'));
-});
-
 app.get("/api/data", (req, res) => {
   const now = Math.floor(Date.now() / 1000);
   const timerStart = now + 45 * 60;
@@ -67,6 +63,10 @@ app.post("/correct-options", (req, res) => {
     console.error(error);
     res.status(500).send("Internal Server Error");
   }
+});
+
+app.get("/*", (req, res) => {
+  res.sendFile(path.join(__dirname, "build", "index.html"));
 });
 
 app.listen(8000, function () {
