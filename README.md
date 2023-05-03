@@ -1,4 +1,4 @@
-# Host frontent to backend server
+### Host frontent to backend server
 ```
 const express = require('express');
 const app = express();
@@ -15,7 +15,7 @@ app.listen(3000, function() {
 });
 ```
 
-# Host frontent and backend seperately
+### Host frontent and backend seperately
 ```
 const cors = require("cors");
 app.use(cors()); //to connect frontend port
