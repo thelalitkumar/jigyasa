@@ -16,7 +16,7 @@ app.get("/api/data", (req, res) => {
 // API endpoint for fetching 10 random questions
 app.get("/questions", (req, res) => {
   // Shuffle the question array
-  const randomQuestions = getNRandomQuestions(questions, 10);
+  const randomQuestions = getNRandomQuestions(questions, 40);
   res.json(randomQuestions);
 });
 
